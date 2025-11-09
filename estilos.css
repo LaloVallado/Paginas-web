@@ -1,0 +1,340 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.barra1{
+  width: 100%;
+  height: 15px;
+  background-color: #ff3281;
+}
+
+
+
+.contenedor1{
+  width: 100%;
+  padding: 20px 40px; 
+  background-color: #fff9f1;
+  
+  
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  
+}
+
+.spa img{
+  padding-left: 200px;
+  height: 80px;
+  
+}
+
+.barra2{
+  
+  padding-right: 100px;
+  text-align: left;
+  border: #333 solid 2px;
+}
+
+.btn_1{
+  text-decoration: none;
+  margin: 0 20px; 
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 900;
+}
+
+.contenedor_imagenes{
+  
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+}
+
+
+.contenedor_imagenes img {
+  height: 30px;
+}
+.contenedor2{
+  width: 100%;
+  height: 400px;
+  
+
+}
+.contenedor_fondo{
+  width: 100%;
+  height: 400px;
+}
+.imagen_fondo img{
+  width: 100%;
+  height: 400px;
+}
+.texto_fondo{
+  text-align: center;
+  margin-top: -290px;
+}
+.texto1{
+  font-size: 30PX;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 900;
+
+}
+.texto2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+}
+.contenedor_botones{
+  text-align: center;
+}
+.btn_11{
+  text-decoration: none;
+  margin-right: 20px;
+  background-color: #ff3281;
+  padding: 15px 20px;
+  color: white;
+  
+  
+  
+}
+.btn_2{
+  text-decoration: none;
+  margin-right: 20px;
+  border-color: #ff3281;
+  border-width: 2px;
+  padding: 15px;
+  color: white;
+  border-style: solid;
+  
+}
+.contenedor3{
+  width: 100%;
+  height: 300px;
+  
+  display: flex;
+}
+.cuadro1{
+  width: 50%;
+  height: 300px;
+  
+
+}
+.cuadro2{
+  width: 50%;
+  height: 300px;
+  
+  text-align: center;
+
+}
+.texto_c1{
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+
+}
+.parrafos{
+  text-align: justify;
+  padding-left: 40px;
+  padding-right: 200px;
+
+}
+.imagen_velas img{
+  width: 50%;
+  height: 250px;
+  
+}
+.contenedor4 {
+  width: 100%;
+  min-height: 400px; 
+  
+  display: flex;
+  
+  
+  flex-wrap: wrap;
+  background-color: #fff9f1; 
+}
+
+.textoarriba {
+  /* 2. Haz que este div ocupe todo el ancho disponible */
+  width: 100%; 
+  height: 70px;
+  
+}
+
+.txt1 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.cd1 {
+  width: 50%;
+  height: 425px;
+  
+  text-align: center;
+}
+
+.cd2 {
+  width: 50%;
+  height: 425px;
+  
+  display: flex;
+}
+.contenedor_aro img{
+  padding-top: 60px;
+  width: 60%;
+  height: 380px;
+  border-radius: 30px;
+}
+.bb1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: black;
+}
+
+.final{
+  width: 100%;
+  height: 500px;
+  
+  display: flex;
+}
+.vv1{
+  width: 50%;
+  height: 500px;
+  
+  text-align: center;
+
+}
+
+.vv2{
+  width: 50%;
+  height: 500px;
+  
+  
+}
+.t1{
+  text-align: justify;
+}
+.g1{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  padding-left: 90px;
+  padding-top: 40px;
+  
+}
+.g2{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 90px;
+}
+.g3{
+  color: #ff3281;
+  font-weight: 900;
+
+}
+.cnt_tt{
+  text-align: center;
+  
+}
+.g4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding-right: 30px;
+  font-weight: 900;
+  padding-top: 50px;
+}
+.video1{
+  text-align: center;
+}
+
+
+.formulario_contenedor {
+  border: 2px  solid #ff3281; 
+  padding: 15px 100px;
+  width: 50%;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  padding-left: 90px;
+  margin-left: 100px;
+  
+  
+}
+
+
+.form-label {
+  font-weight: bold;
+  font-size: 1.1em;
+  display: block; 
+  margin-bottom: 10px;
+  
+}
+
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+
+.form-boton {
+  background-color: #000; 
+  color: #fff; 
+  border: none;
+  padding: 12px 30px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer; 
+  border-radius: 5px;
+}
+
+.final2{
+  width: 100%;
+  height: 200px;
+  border: red solid 2px;
+  background-color: #fff9f1;
+}
+.barrafinal{
+  width: 100%;
+  height: 15px;
+  background-color: #ff3281;
+}
+.cnt_final {
+  width: 20%;
+  height: 100px;
+  margin-top: 30px;
+ 
+  text-align: left;
+  padding-left: 200px;
+}
+.cnt_txtfinal{
+ margin-top: -70px;
+  text-align: right;
+  padding-right: 150px;
+}
+.rr1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #ff3281;
+}
+
+
